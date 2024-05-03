@@ -12,7 +12,7 @@ const EntryForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5000/api/entries', {
+      const response = await axios.post('https://code91-demobooking-backend.onrender.com/api/entries', {
         parentName,
         parentContact,
         grade,
